@@ -1,0 +1,15 @@
+4541b79 HEAD@{0}: checkout: moving from develop to master
+f9c5a21 HEAD@{1}: commit (merge): Merged fixed conflict
+f5cd1cd HEAD@{2}: merge images: Fast-forward
+8696b1e HEAD@{3}: checkout: moving from styles to develop
+b3f576e HEAD@{4}: commit: Change index.html
+7000002 HEAD@{5}: commit: Create new branch p {
+8696b1e HEAD@{6}: checkout: moving from develop to styles
+8696b1e HEAD@{7}: checkout: moving from images to develop
+f5cd1cd HEAD@{8}: commit: Add images source inside index.txt
+0ba785f HEAD@{9}: commit: Add folder with some photos
+8696b1e HEAD@{10}: checkout: moving from develop to images
+8696b1e HEAD@{11}: commit: Create new branch and empty file
+4541b79 HEAD@{12}: checkout: moving from develop to develop
+4541b79 HEAD@{13}: checkout: moving from master to develop
+4541b79 HEAD@{14}: commit (initial): Create empty file
