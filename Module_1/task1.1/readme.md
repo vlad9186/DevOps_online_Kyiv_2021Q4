@@ -75,7 +75,10 @@
  ![screenshot](screenshots/21.jpg)
  
 26. Make file readme.md in folder task1.1 and describe results of your work with Git.
+
 In this module I am on practice applied knowledge about git. First I am setup global configure. In this task I face to merge problem when merge “styles” into “develop”.
+
 27. Describe in your own words what DevOps is. Try to use not more 50 words. Do not use ctrl-C/ctrl-V.
 28. Insert your text about DevOps in readme.md
+
 DevOps is an actual culture or idea of a team approach to solving problems in software development in order to reduce company costs and reduce the workload.
