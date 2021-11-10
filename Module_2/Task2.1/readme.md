@@ -16,36 +16,36 @@ PART 2. WORK WITH VIRTUALBOX
 
 1.1 – 1.6 Clone an existing VM1 by creating a VM2 [1, ch.1.14].
  
- ![screenshot](Task2.1/screenshots/0.png)
+ ![screenshot](screenshots/0.png)
  
 1.7 Create a group of two VM: VM1, VM2 and learn the functions related to groups [1, 
 ch.1.10].
   
-  ![screenshot](Task2.1/screenshots/1.png)
+  ![screenshot](screenshots/1.png)
   
 1.8 For VM1, changing its state, take several different snapshots, forming a branched tree of snapshots [1, ch.1.11].
    
-   ![screenshot](Task2.1/screenshots/2.png)
+   ![screenshot](screenshots/2.png)
    
 1.9 Export VM1. Save the *.ova file to disk. Import VM from *.ova file [1, ch.1.15].
  
-  ![screenshot](Task2.1/screenshots/3.png)
-  ![screenshot](Task2.1/screenshots/4.png)
+  ![screenshot](screenshots/3.png)
+  ![screenshot](screenshots/4.png)
  
 2. Configuration of virtual machines
 2.1 Explore VM configuration options (general settings, system settings, display, storage, audio, network, etc.).
 2.2 Configure the USB to connect the USB ports of the host machine to the VM
 [1, ch.3.11].
 
-   ![screenshot](Task2.1/screenshots/5.png)
+   ![screenshot](screenshots/5.png)
 
 2.3 Configure a shared folder to exchange data between the virtual machine and the host [1, ch.4.3].
    
-   ![screenshot](Task2.1/screenshots/6.png)
+   ![screenshot](screenshots/6.png)
 
 2.4 Configure different network modes for VM1, VM2. Check the connection between VM1, VM2, Host, Internet for different network modes. You can use the ping command to do this. Make a table of possible connections.
 Table of possible connections.
-   ![screenshot](Task2.1/screenshots/7.png)
+   ![screenshot](screenshots/7.png)
 
 3. Work with CLI through VBoxManage.
 
@@ -53,8 +53,8 @@ Table of possible connections.
 
 3.2 Examine the purpose and execute the basic commands of VBoxManage list, showvminfo, createvm, startvm, modifyvm, clonevm, snapshot, controlvm [1, ch.8].
    
-   ![screenshot](Task2.1/screenshots/8.png)
-   ![screenshot](Task2.1/screenshots/9.png)
+   ![screenshot](screenshots/8.png)
+   ![screenshot](screenshots/9.png)
 
 PART 3. WORK WITH VAGRANT
 1. Download the required version of Vagrant according to the instructions [5] and according to the host operating system (OS) installed on the student's workplace. For Windows, the file may be called, for example, vagrant_2.2.0_x86_64.msi. Install Vagrant. Check the path to Vagrant bin in the Path variable (My computer -> Properties -> Advanced system settings -> Advanced -> Environment Variables).
