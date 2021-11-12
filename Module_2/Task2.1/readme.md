@@ -60,9 +60,21 @@ PART 3. WORK WITH VAGRANT
 1. Download the required version of Vagrant according to the instructions [5] and according to the host operating system (OS) installed on the student's workplace. For Windows, the file may be called, for example, vagrant_2.2.0_x86_64.msi. Install Vagrant. Check the path to Vagrant bin in the Path variable (My computer -> Properties -> Advanced system settings -> Advanced -> Environment Variables).
 2. Run the powershell. Create a folder "student name" (in English). In this example, create a folder vagrant_test. Next, go to the folder.
 3. Initialize the environment with the default Vagrant box: init hashicorp/precise64
-4. Run vagrant up and watch for messages during VM boot and startup.
-5. Connect to the VM using the program PuTTY (can be downloaded from [6]), using SSH, IP address and port listed above (127.0.0.1:2222). By default, login – vagrant and password are also vagrant
-6. Record the date and time by executing the date command
-7. Stop and delete the created VM.
-8. Create your own Vagrant box [7]
-9. (optional) Create a test environment from a few servers. Servers' parameters are chosen independently by the student.
+5. Run vagrant up and watch for messages during VM boot and startup.
+
+ ![screenshot](screenshots/10.png)
+
+6. Connect to the VM using the program PuTTY (can be downloaded from [6]), using SSH, IP address and port listed above (127.0.0.1:2222). By default, login – vagrant and password are also vagrant
+7. Record the date and time by executing the date command
+
+ ![screenshot](screenshots/11.png)
+
+8. Stop and delete the created VM.
+
+ ![screenshot](screenshots/12.png)
+
+9. Create your own Vagrant box [7]
+
+ ![screenshot](screenshots/13.png)
+
+10. (optional) Create a test environment from a few servers. Servers' parameters are chosen independently by the student.
