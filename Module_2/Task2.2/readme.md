@@ -93,4 +93,4 @@ TASK 2.2
 
 15. Create a static website on Amazon S3, publicly available (link1 or link2 - using a custom domain registered with Route 53). Post on the page your own photo, the name of the educational program (EPAM DevOps online Autumn 2021), the list of AWS services with which the student worked within the educational program or earlier and the full list with links of completed labs (based on tutorials or qwiklabs). Provide the link to the website in your report and СV
 
-http://vlad.com.s3-website-us-east-1.amazonaws.com
+   http://vlad.com.s3-website-us-east-1.amazonaws.com
