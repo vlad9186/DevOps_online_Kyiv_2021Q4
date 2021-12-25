@@ -76,10 +76,12 @@ PART 3
  ![screenshot_1](screenshots/17.png)
 
 3.3 Query an Amazon DynamoDB table using Query and Scan.
+
 Scan:
  ![screenshot_1](screenshots/18.png)
 
  ![screenshot_1](screenshots/19.png)
 
 Query:
+
  ![screenshot_1](screenshots/20.png)
