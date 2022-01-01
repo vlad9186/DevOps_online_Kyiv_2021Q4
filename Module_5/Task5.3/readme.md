@@ -2,11 +2,17 @@ TASK5.3
 Part1
 
 1. How many states could has a process in Linux?
+
 Processes in Linux have a several status:
+
 R – Running or runnable;
+
 D – Uninterruptible sleep or wait writing on the disk;
+
 S – Interruptible sleep;
+
 T – Stopped, either by a job control signal or because it is being traced;
+
 Z – Defunct (“zombie”) process, terminated but not closed by the parent process that created it.
 
 2. Examine the pstree command. Make output (highlight) the chain (ancestors) of the current process.
