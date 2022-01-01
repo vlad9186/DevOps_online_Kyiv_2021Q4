@@ -2,7 +2,6 @@ TASK5.3
 Part1
 
 1. How many states could has a process in Linux?
-
 Processes in Linux have a several status:
 R – Running or runnable;
 D – Uninterruptible sleep or wait writing on the disk;
