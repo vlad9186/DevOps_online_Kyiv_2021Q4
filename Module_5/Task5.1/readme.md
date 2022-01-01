@@ -127,7 +127,9 @@ examples.
  ![screenshots](screenshots/27.png)
 
 14) How to determine the type of file in the system, what types of files are there?
-lsscsi - shows hard disc and optical disc drives
+
+lsscsi - shows hard disc and optical disc drives.
+
 lsusb - shows USB devices in system. Lspci shows controller of USB.
 
  ![screenshots](screenshots/28.png)
