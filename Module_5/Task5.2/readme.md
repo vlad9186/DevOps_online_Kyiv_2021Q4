@@ -10,6 +10,7 @@ Task assignment.
 2) What are the uid ranges? What is UID? How to define it? What is GID? How to define it?
 
 UID- unique identifier of the user within the system
+
 GID - unique identifier of the group within the system to which the user belongs
 
  ![screenshots](screenshots/3.png)
@@ -21,7 +22,8 @@ GID - unique identifier of the group within the system to which the user belongs
 5) What are the commands for adding a user to the system? What are the basic parameters required to create a user?
 
 useradd - low-level utilty for creating user accounts. But even after password setting it requires creating home catalog for login.
-adduser - high-level utility, by default not existed in some distributions. The low-level utility useradd is used as a backend.
+
+adduser - high-level utility, by default not existed in some distributions. The low level utility useradd is used as a backend.
 It creates full user account including home catalog. The new user is ready to log in through your login manager or in text mode.
 
  ![screenshots](screenshots/5.png)
@@ -31,6 +33,8 @@ It creates full user account including home catalog. The new user is ready to lo
  ![screenshots](screenshots/6.png)
 
 7) What is skell_dir? What is its structure?
+
+The /etc/skel directory contains files and directories that are automatically copied over to a new user’s when it is created from useradd command.
 
  ![screenshots](screenshots/7.png)
 
@@ -57,15 +61,25 @@ Use key -r(-remove) in order to delete user home catalog and mail folder "userde
 13) What is the sequence of defining the relationship between the file and the user?
 
 Here is sequence of rights:
+
 --- - no rights at all;
+
 --x - only execution of the file is allowed as a program, but not modification or reading;
+
 -w- - only writing and changing the file is allowed;
+
 -wx - modification and execution are allowed, but in the case of a directory, you cannot see its contents;
+
 r-- - read-only rights;
+
 r-x - read only and execute, no write permission;
+
 rw- - read and write permissions, but no execution;
+
 rwx - all rights;
+
 --s - SUID or SGID bit is set, the first is displayed in the field for the owner, the second for the group;
+
 --t - sticky-bit is installed, which means users cannot delete this file.
 
 14) What commands are used to change the owner of a file (directory), as well as the mode of access to the file? Give examples, demonstrate on the terminal.
