@@ -7,6 +7,10 @@ A. Create a script that uses the following keys:
 3. The --target key displays a list of open system TCP ports.
 The code that performs the functionality of each of the subtasks must be placed in a separate function
 
+ ![screenshot_1](screenshots/1.png)
+
+ ![screenshot_1](screenshots/2.png)
+
 B. Using Apache log example create a script to answer the following questions:
 
 1. From which ip were the most requests? 
@@ -15,6 +19,10 @@ B. Using Apache log example create a script to answer the following questions:
 4. What non-existent pages were clients referred to? 
 5. What time did site get the most requests? 
 6. What search bots have accessed the site? (UA + IP)
+
+ ![screenshot_1](screenshots/3.png)
+
+ ![screenshot_1](screenshots/4.png)
 
 C. Create a data backup script that takes the following data as parameters:
 
