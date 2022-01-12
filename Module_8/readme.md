@@ -13,13 +13,21 @@ TASK - 01.
 - solv_square(a, b, c) -> roots 
 - square_print(a, b, c, roots) – выводит на экран результат 
 
+Program code:
+
  ![screenshot_1](screenshots/1.png)
+
+Result:
 
  ![screenshot_1](screenshots/2.png)
 
 на выделенные написать UnitTest. 
 Не использовать глобальные переменные. 
 
+Program code:
+
  ![screenshot_1](screenshots/3.png)
  
+ Result:
+
  ![screenshot_1](screenshots/4.png)
