@@ -32,3 +32,12 @@ In case of adding new or deleting old files, the script must add a corresponding
 indicating the time, type of operation and file name. 
 [The command to run the script must be added to 
 crontab with a run frequency of one minute
+
+ ![screenshot_1](screenshots/5.png)
+
+ ![screenshot_1](screenshots/5.1.png)
+
+ ![screenshot_1](screenshots/6.png)
+
+ ![screenshot_1](screenshots/7.png)
+
