@@ -15,11 +15,15 @@ VM3:
 (3 ways: using VBoxManage, DNSMASQ and ISC-DHSPSERVER). 
 You should use at least 2 of them.
 
+Configure DHCP server using DNSMASQ:
+
 ![screenshot_1](screenshots/4.png)
  ![screenshot_1](screenshots/5.png)
  ![screenshot_1](screenshots/5.1.png)
  ![screenshot_1](screenshots/6.png)
  ![screenshot_1](screenshots/7.png)
+
+Configure DHCP server using ISC-DHSPSERVER:
 
  ![screenshot_1](screenshots/8.png)
  ![screenshot_1](screenshots/9.png)
@@ -29,8 +33,13 @@ You should use at least 2 of them.
 
 3. Check VM2 and VM3 for obtaining network addresses from DHCP server.
 
+VM1:
 ![screenshot_1](screenshots/12.png)
+
+VM2:
  ![screenshot_1](screenshots/13.png)
+ 
+VM3:
  ![screenshot_1](screenshots/14.png)
 
 4. Using existed network for three VMs (from p.1) install and configure DNS server on VM1. (You can use DNSMASQ, BIND9 or something else)
